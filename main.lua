@@ -1594,7 +1594,7 @@ function Menu.DrawKeySelector(alpha)
     local startX = math.floor((screenWidth - width) / 2)
     local startY = math.floor(screenHeight - 160)
 
-    local itemName = Menu.BindingItem and (Menu.BindingItem.name or "Option") or "Menu Toggle"
+    local itemName = ""
     local keyName = Menu.BindingItem and Menu.BindingKeyName or Menu.SelectedKeyName
     if not keyName then keyName = "..." end
     local status = "nyomj meg egy gombot"
