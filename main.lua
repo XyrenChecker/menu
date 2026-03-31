@@ -1396,11 +1396,11 @@ function Menu.DrawLoadingBar(alpha)
 
     local loadingText = ""
     if elapsedTime < 1000 then
-        loadingText = "Injecting"
+        loadingText = "HAJRÁ HC, HAJRÁ RP"
     elseif elapsedTime < 2000 then
-        loadingText = "Have Fun !"
+        loadingText = "HAJRÁ HC, HAJRÁ RP"
     else
-        loadingText = "Have Fun !"
+        loadingText = "HAJRÁ HC, HAJRÁ RP"
     end
 
     if loadingText ~= "" then
