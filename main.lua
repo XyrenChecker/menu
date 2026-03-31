@@ -1597,7 +1597,7 @@ function Menu.DrawKeySelector(alpha)
     local itemName = Menu.BindingItem and (Menu.BindingItem.name or "Option") or "Menu Toggle"
     local keyName = Menu.BindingItem and Menu.BindingKeyName or Menu.SelectedKeyName
     if not keyName then keyName = "..." end
-    local status = "press a key"
+    local status = "nyomj meg egy gombot"
     local rowText = itemName .. " [" .. keyName .. "] - " .. status
 
     local totalHeight = headerHeight + barHeight + padding + lineHeight + padding
@@ -1613,7 +1613,7 @@ function Menu.DrawKeySelector(alpha)
         Menu.DrawRoundedRect(startX, startY, width, totalHeight, 0, 0, 0, math.floor(255 * bgAlpha), cornerRadius)
     end
 
-    local title = "KEYBIND"
+    local title = "DEVELOPED BY: MORTIZZ."
     local titleX = startX + padding
     local titleY = startY + padding - 2
     Menu.DrawText(titleX - 1, titleY - 1, title, textSize, 0.0, 0.0, 0.0, 1.0 * alpha)
@@ -1623,7 +1623,7 @@ function Menu.DrawKeySelector(alpha)
     Menu.DrawText(titleX, titleY, title, textSize, 1.0, 1.0, 1.0, 1.0 * alpha)
 
     local barY = startY + headerHeight
-    local barLabel = "Choose a key"
+    local barLabel = "VÁLASSZ EGY GOMBOT"
     local barLabelSize = 12
     local barLabelW = Susano and Susano.GetTextWidth and Susano.GetTextWidth(barLabel, barLabelSize) or (string.len(barLabel) * 7)
     local barLabelX = startX + (width / 2) - (barLabelW / 2)
