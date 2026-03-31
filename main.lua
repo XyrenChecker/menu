@@ -31,7 +31,7 @@ Menu.LoadingProgress = 0.0
 Menu.IsLoading = true
 Menu.LoadingComplete = false
 Menu.LoadingStartTime = nil
-Menu.LoadingDuration = 3000
+Menu.LoadingDuration = 7000
 
 Menu.SelectingKey = false
 Menu.SelectedKey = nil
